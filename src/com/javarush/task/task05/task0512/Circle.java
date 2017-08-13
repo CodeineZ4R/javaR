@@ -9,13 +9,18 @@ package com.javarush.task.task05.task0512;
 
 Требования:
 1. Программа не должна считывать данные с клавиатуры.
-2. У класса Circle должны быть переменные centerX, centerY, radius, width и color с типом int.
-3. У класса должен быть метод initialize, принимающий в качестве параметров centerX, centerY,
+2. У класса Circle должны быть переменные centerX, centerY, radius,
+ width и color с типом int.
+3. У класса должен быть метод initialize, принимающий в качестве
+параметров centerX, centerY,
 radius и инициализирующий соответствующие переменные класса.
-4. У класса должен быть метод initialize, принимающий в качестве параметров centerX, centerY,
+4. У класса должен быть метод initialize, принимающий в качестве
+параметров centerX, centerY,
 radius, width и инициализирующий соответствующие переменные класса.
-5. У класса должен быть метод initialize, принимающий в качестве параметров centerX, centerY,
-radius, width, color и инициализирующий соответствующие переменные класса.
+5. У класса должен быть метод initialize, принимающий в качестве
+параметров centerX, centerY,
+radius, width, color и инициализирующий соответствующие переменные
+класса.
 */
 
 public class Circle {
@@ -23,7 +28,7 @@ public class Circle {
     int centerY;
     int radius;
     int width;
-    String color;
+    int color;
 
     public void  initialize(int centerX, int centerY, int radius){
         this.centerX = centerX;
@@ -38,7 +43,12 @@ public class Circle {
         this.radius = radius;
         this.width = width;
     }
-    public void  initialize(int centerX, int centerY, int radius, int width, String color){
+    public void  initialize(int centerX, int centerY, int radius, int width, int color){
+        this.centerX = centerX;
+        this.centerY = centerY;
+        this.radius = radius;
+        this.width = width;
+        this.color = color;
 
     }
 
