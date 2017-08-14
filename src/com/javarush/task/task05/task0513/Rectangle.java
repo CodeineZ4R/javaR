@@ -43,13 +43,14 @@ public class Rectangle {
 
     }
 
-    public void initialize(int top, int left, int width ) {
+    public void initialize(int top, int left, int width) {
         this.width = width;
         this.height = left;
         this.top = top;
         this.left = left;
     }
-    public void initialize(int top, int left, int width, int height ) {
+
+    public void initialize(int top, int left, int width, int height) {
         this.width = width;
         this.height = height;
         this.top = top;
