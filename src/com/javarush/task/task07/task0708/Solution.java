@@ -14,7 +14,6 @@ public class Solution {
         BufferedReader bufferedReader = new BufferedReader(
                 new InputStreamReader(System.in));
         ArrayList<String> arrayList = new ArrayList<>();
-        ArrayList<String> arrayListBig = new ArrayList<>();
         int maxLenStr = 0;
 
         for (int i = 0; i < 5; i++) {
