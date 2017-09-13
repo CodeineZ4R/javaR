@@ -9,8 +9,9 @@ public class Solution {
         try {
             String s = null;
             String m = s.toLowerCase();
-        } catch ( Exception e ) {
+        } catch (NullPointerException e ) {
             System.out.println(e);
         }
+
     }
 }
