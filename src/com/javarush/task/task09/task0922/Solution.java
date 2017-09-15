@@ -13,13 +13,6 @@ import java.util.Locale;
 public class Solution {
 
     public static void main(String[] args) throws Exception {
-        BufferedReader bufferedReader = new BufferedReader(
-                new InputStreamReader(System.in));
-        SimpleDateFormat simpleDateFormat =new SimpleDateFormat("MMM dd, yyyy");
-
-        Date date = new Date(bufferedReader.readLine());
-        System.out.println(simpleDateFormat.format(date).toUpperCase());
-
-
+        //напишите тут ваш код
     }
 }
